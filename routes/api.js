@@ -7,7 +7,7 @@ const BlogPost = require('../models/blogPost');
 //Routes
 router.get('/', (req, res) => {
 
-  BlogPost.find()
+  BlogPost.find().sort({_id:-1})
   .then((data) => {
     console.log('Data: ', data);
     res.json(data);
