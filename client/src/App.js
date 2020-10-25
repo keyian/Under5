@@ -84,7 +84,7 @@ class App extends React.Component {
     return(
       <div className="app">
         <h2>We're Cheap</h2>
-        <h3>An index of things under $5 in New York City. Added by anyone who wants to add their shit.</h3>
+        <h3>Fuck Anya</h3>
         <form onSubmit={this.submit}>
           <div className="form-input">
             <input
