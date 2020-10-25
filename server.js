@@ -7,7 +7,6 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 const routes = require('./routes/api.js');
-//const MONGODB_URI = 'mongodb+srv://MistaKeyian:zSUXybTMTTFmXlEZ@under5.8vvry.mongodb.net/db1?retryWrites=true&w=majority';
 
 mongoose.connect(process.env.DB_URI || 'mongodb://localhost/nuUnder5', {
   useNewUrlParser: true,
